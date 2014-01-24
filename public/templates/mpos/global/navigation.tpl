@@ -64,7 +64,7 @@
                {*{if $GLOBAL.acl.uptime.statistics}*}
                {*{if $GLOBAL.config.monitoring_uptimerobot_api_keys|default:"0"}<li class="icon-bell"><a href="{$smarty.server.PHP_SELF}?page=statistics&action=uptime">Uptime</a></li>{/if}*}
                {*{/if}*}
-      {*</ul>*}
+      </ul>
     {/if}
     {*<h3>帮助</h3>*}
     {*<ul class="toggle">*}
