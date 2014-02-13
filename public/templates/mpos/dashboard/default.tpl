@@ -4,8 +4,8 @@
   {include file="dashboard/round_data.tpl"}
   {include file="dashboard/account_data.tpl"}
   {if !$DISABLED_DASHBOARD and !$DISABLED_DASHBOARD_API}
-  {include file="dashboard/js_api.tpl"}
+    {include file="dashboard/js_api.tpl"}
   {else}
-  {include file="dashboard/js_static.tpl"}
+    {include file="dashboard/js_static.tpl"}
   {/if}
 {/if}
